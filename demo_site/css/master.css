@@ -1,0 +1,24 @@
+/*
+Title:  Base CSS Structure and Styles for the site
+Author: Nick Wilkins - www.squashednewt.com
+*/
+
+
+/* Base style definition for font on the site */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, section, article, footer, aside, nav {
+    font-family:  'Lucida Grande', verdana, arial; color: #333; font-size: 1em;
+}
+header, section, article, footer, aside, nav { display: block; }
+
+/* Links */
+A, A:Visited { color: #b90a0a; text-decoration:none; outline:none; }
+A:Hover { color: #ecbb46; text-decoration: none; outline:none; }
+
+body { }
+
+h1 { color: #374051; font-size: 1.6em; font-family: arial; padding: 20px 0px; }
+p { padding: 10px 0px; font-size: 0.8em; color: #666; }
+em { font-style:italic; }
+
+.wrap { width: 1000px; margin: 0 auto; }
+#main { background-color: #fff; border: 1px solid #ccc; margin-top: -150px; width: 980px; padding: 10px; margin-bottom: 60px; padding-bottom: 25px; }
